@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.score {
+    display: none;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+button {
+    border: 2px solid grey;
+    margin-left: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.author {
+    margin-top: 40px;
+    color: teal;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
